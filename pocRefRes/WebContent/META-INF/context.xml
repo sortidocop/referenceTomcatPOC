@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+
+	<Resource name="jms/DTestQueue" auth="Container"
+		type="com.ibm.mq.jms.MQQueue" factory="com.ibm.mq.jms.MQQueueFactory"
+		description="JMS Queue for receiving messages from Dialog" QU="TestQueue" />
+
+</Context>
+	
